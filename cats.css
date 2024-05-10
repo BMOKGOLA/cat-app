@@ -1,0 +1,23 @@
+body {
+    background-color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cat{
+    background-color: aqua;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid chartreuse;
+    flex: 1;
+}
+
+@media (min-width : 960px) {
+    
+    .cats{
+        display: flex;
+    }
+}
+.fieldset{
+    margin: 1em;
+    border: 0;
+}
